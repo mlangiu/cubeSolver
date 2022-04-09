@@ -1,7 +1,9 @@
 """A module to solve 3D cube arrangement puzzles."""
 import numpy as np
 from matplotlib import pyplot as plt
-
+plt.rcParams['figure.facecolor'] = 'w'
+plt.rcParams['axes.facecolor'] = 'w'
+plt.rcParams['savefig.facecolor'] = 'w'
 
 class Piece(object):
     """This class defines a piece of the cube."""
